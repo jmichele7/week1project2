@@ -39,6 +39,8 @@ var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 var firstArray = [12, 5, 9, 27];
 var secondArray = ['fish', 'dog'];
 
+var numberPets = ["firstArray", "secondArray"]
+
 // Use the following array for questions 13-16:
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
