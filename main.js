@@ -28,18 +28,25 @@ var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 // 7. Combine all of the elements of the array into a string.
 
 // 8. Declare a variable called lastItem whose using .pop() Add two new items to lastItem, on at the beginning and one at the end.
+var = lastItem = things.pop();
+lastItem = lastItem.split():
+lastItem = newArray things.pop():
 
 // 9. Create a new Array called itemLast. The items should be the same as lastItem, only in reverse order.
+var itemLast = lastItem.reverse();
+console.log(itemLast);
 
 // 10. Remove the first item of itemLast.
-
+itemLast.shift();
+console.log(lastItem);
 // 11. Remove all items from itemLast (No need to write to the document. Just console.log to test your results)
+var itemLast = []
 
 // 12. Using the Arrays below, create a single Array called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
 var firstArray = [12, 5, 9, 27];
 var secondArray = ['fish', 'dog'];
 
-var numberPets = ["firstArray", "secondArray"]
+var numberPets = [firstArray + ',' + secondArray];
 
 // Use the following array for questions 13-16:
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
@@ -56,6 +63,8 @@ var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 var array1 = ["Fido", "Spot", "Rex", "Sparky"]
 var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
 var array3 = ["White", "Black", "Spotted", "Tri-color"]
+var bigArray = [array1, array2, array3];
+console.log(bigArray);
 
 // Goal:
 var array4 = [
@@ -65,13 +74,19 @@ var array4 = [
               ]
 
 // 18. Remove "Sparky" and "White" from the above array of arrays.
+array1.splice(3,1);
+array2.splice(0,1);
+console.log(bigArray);
 
 // BONUS 1: Try to arrange the following items from smallest to largest:
 var sortingNumbers = [2, 5, 98, 55, 77, 300]
-// Explain why it doesn't sort as expected.
 
+// Explain why it doesn't sort as expected.
+sortingNumbers.sort();
+console.log();
 // BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
 var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
-
+array1.splice(2,1);
+array1.splce(4,1);
 //Goal
 var array2 = ['plant', 17, 2, 'Bill', 'dog'];
